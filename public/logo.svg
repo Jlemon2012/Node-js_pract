@@ -1,0 +1,17 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="200" height="200" fill="skyblue"/>
+
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="40" fill="yellow" stroke="orange" stroke-width="5"/>
+
+    <!-- Sun Rays -->
+    <line x1="100" y1="20" x2="100" y2="60" stroke="orange" stroke-width="5"/>
+    <line x1="100" y1="140" x2="100" y2="180" stroke="orange" stroke-width="5"/>
+    <line x1="20" y1="100" x2="60" y2="100" stroke="orange" stroke-width="5"/>
+    <line x1="140" y1="100" x2="180" y2="100" stroke="orange" stroke-width="5"/>
+    <line x1="40" y1="40" x2="70" y2="70" stroke="orange" stroke-width="5"/>
+    <line x1="130" y1="130" x2="160" y2="160" stroke="orange" stroke-width="5"/>
+    <line x1="40" y1="160" x2="70" y2="130" stroke="orange" stroke-width="5"/>
+    <line x1="130" y1="70" x2="160" y2="40" stroke="orange" stroke-width="5"/>
+</svg>
