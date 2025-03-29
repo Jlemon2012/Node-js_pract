@@ -1,11 +1,11 @@
 const express = require('express');
 const app = express();
-const logger = require('./logger');
-const authorize = require('./authorize');
+const logger = require('./logger'); //stored in a separate file
+const authorize = require('./authorize'); //stored in a separate file
 
 // req => middleware => res
 
-app.use([logger, authorize]);
+app.use('/api', [logger, authorize]);
 
 app.get('/', (req, res) => {
     res.send('Home page');
